@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Future Academy</title>
+  <meta name="description" content="AI Future Academy – Learn Prompt Engineering, ChatGPT, AI Tools.">
+  <style>
+    body { margin:0; font-family:Arial,sans-serif; color:#333; }
+    header { background:#007bff; color:#fff; padding:40px 20px; text-align:center; }
+    header h1 { margin:0;font-size:2.8em; }
+    header p { margin:10px 0 20px; font-size:1.2em; }
+    header a { background:#fff; color:#007bff; padding:12px 24px; text-decoration:none;
+              border-radius:4px; font-weight:bold; }
+    section { padding:60px 20px; max-width:900px;margin:auto; }
+    .courses, .contact { display:flex; flex-wrap:wrap; gap:20px; justify-content:space-around; }
+    .course-card { border:1px solid #ddd; border-radius:8px; padding:20px; flex:1 1 250px; transition:transform 0.2s; }
+    .course-card:hover { transform:scale(1.03); }
+    .course-card h3 { margin-top:0;}
+    .course-card button { background:#007bff;color:#fff;padding:10px 16px;border:none;border-radius:4px;
+                          cursor:pointer; }
+    .contact form { flex:1 1 400px; display:flex; flex-direction:column; gap:12px; }
+    .contact input, .contact textarea { padding:10px;border:1px solid #ccc;border-radius:4px;width:100%; }
+    .contact button { align-self:flex-start;background:#007bff;color:#fff;padding:10px 16px;
+                      border:none;border-radius:4px; cursor:pointer; }
+    footer { background:#f1f1f1; text-align:center; padding:20px 0; margin-top:40px; }
+    @media(max-width:600px){ .courses, .contact { flex-direction:column; } }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AI Future Academy</h1>
+    <p>Empowering the Future with AI Learning</p>
+    <a href="#courses">Start Learning</a>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to AI Future Academy, founded by a verified prompt engineer. Our mission is to democratize AI knowledge through hands-on, practical learning experiences.</p>
+  </section>
+
+  <section id="courses">
+    <h2>Our Courses</h2>
+    <div class="courses">
+      <div class="course-card">
+        <h3>Beginner Prompt Engineering</h3>
+        <p>Learn the fundamentals of crafting effective AI prompts.</p>
+        <button>Enroll ₹399</button>
+      </div>
+      <div class="course-card">
+        <h3>ChatGPT, Gemini & Grok Made Simple</h3>
+        <p>Understand and harness powerful language models.</p>
+        <button>Enroll ₹499</button>
+      </div>
+      <div class="course-card">
+        <h3>AI Tools for Creators</h3>
+        <p>Apply AI to boost your creative workflows.</p>
+        <button>Enroll ₹499</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div>
+        <h3>Connect with Us</h3>
+        <p>WhatsApp / Telegram: <a href="https://wa.me/your-number">+91-XXXXXXXXXX</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AI Future Academy. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
